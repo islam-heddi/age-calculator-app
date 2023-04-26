@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 12%, 92%);
+}
+
+.date-set{
+    display: flex;
+    gap: 1em;
+}
+
+input{
+    width:4em;
+    height:3em;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-color: white;
+    border-bottom-right-radius: 50%;
+    width: 30em;
+}
+
+.click img{
+    background-color: blueviolet;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.heaver{
+    margin-left: 50px;
+}
+
+.result{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.result .number{
+    color:blueviolet;
+}
